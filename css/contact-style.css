@@ -15,7 +15,7 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 8rem
+    font-size: 6rem
 }
 
 h2 {
@@ -93,82 +93,17 @@ body {
 
 .slogan-container {
     /* border: 1px yellow solid; */
-    height: 70vh;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 5px solid red;
+    margin-bottom: 100rem;
 }
 
-/* ABOUT SECTION */
 
-.about-section-container {
-    display: flex;
-    /* border: 5px red solid; */
-    margin-bottom: 15rem;
-    justify-content: center;
-    margin-top: 5rem;
-    flex-wrap: wrap;
-}
 
-.about-section-text {
-    /* border: thistle 5px solid; */
-    width: 1000px;
-    margin-right: 5rem;
-}
 
-.about-section-text p {
-    margin-top: 2rem;
-}
-
-.about-section-text button {
-    margin-top: 2rem;
-}
-
-.about-section-img img{
-    width: 1000px;
-    border-radius: 25px;
-}
-
-/* PROJECTS SECTION */
-
-.card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;   
-    margin-bottom: 10rem;
-    margin-top: 6rem;
-}
-
-.card {
-    width: 25%;
-    height: 40rem;
-    text-align: left;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 2rem;
-    transition: all 0.3s ease-in-out;
-}
-
-.card:hover {
-    box-shadow: 0px 0px 80px 10px white;
-    cursor: pointer;
-}
-
-.card-1 {
-    background-image: linear-gradient(to right, #FF5F6D, #FFC371);
-}
-
-.card-2 {
-    background-image: linear-gradient(to right, #4568DC, #BE00C6);
-}   
-
-.card-3 {
-    background-image: linear-gradient(to right, #43C6AC, #F8FFAE);
-    /* border: tomato 5px solid; */
-    justify-content: center;
-}
 
 /* FOOTER */
 
@@ -213,3 +148,4 @@ h3 {
 .sitemap-footer-list {
     list-style: none;
 }
+
