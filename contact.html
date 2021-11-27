@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./media/Personal Logo.PNG" type="image/x-icon">
     <link rel="stylesheet" href="./css/contact-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Contact Andrew</title>
 </head>
 <body>
@@ -27,12 +28,49 @@
         </nav>
         <div class="slogan-container">
             <h1>Let's make something cool</h1>
+            <p>Let's get in touch if you want to work together or just share exciting ideas.</p>
         </div>
     </header>
 
     <!-- CONTACT FORM -->
 
-    <form action=""></form>
+    <div class="form-container">
+        <form action="" method="GET">
+            <div>
+                <label for="first-name">First Name</label>
+                <input type="text" name='name' id='first-name' placeholder="Your first name..." required>
+            </div>
+            <div>
+                <label for="last-name">Last Name</label>
+                <input type="text" id='last-name' name='last-name' placeholder="Your last name..." required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Your email..." required>
+            </div>
+            <div>
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone" placeholder="Your phone Number...">
+            </div>
+            <div>
+                <label for="description">What would you like to discuss?</label>
+                <textarea name="description" id="description" cols="30" rows="10" placeholder="Write something here..." required></textarea>
+            </div>
+            <div>
+                <label for="URL">Please enter any helpful links</label>
+                <input type="URL" name="URL" id="URL" placeholder="Helpful link here...">
+            </div>
+            <div class="file-input">
+                <label for="file">Please upload any helpful files</label>
+                <input type="file" id="file" name="file" class="file">
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+    </div>
+
+
+    </form>
 </body>
 
   <!-- FOOTER -->
@@ -41,7 +79,7 @@
     <div class="footer-column-container">
         <div class="footer-col column-1">
             <h3>Andrew R.</h3>
-            <a href="#" class="fa fa-twitter"></a>
+            <a href="https://twitter.com/mycodingjournal" class="fa fa-twitter" target="_blank"></a>
         </div>
         <div class="footer-col column-2">
             <h3>Sitemap</h3>
